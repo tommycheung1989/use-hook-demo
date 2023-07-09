@@ -23,6 +23,9 @@ function App() {
           <li>
             <Link to="/useCallBack">useCallBack</Link>
           </li>
+          <li>
+            <Link to="/useMemo">useMemo</Link>
+          </li>
         </ul>
       </div>
     </div>
