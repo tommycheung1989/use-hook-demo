@@ -26,6 +26,12 @@ function App() {
           <li>
             <Link to="/useMemo">useMemo</Link>
           </li>
+          <li>
+            <Link to="/useRef">useRef</Link>
+          </li>
+          <li>
+            <Link to="/useReducer">useReducer</Link>
+          </li>
         </ul>
       </div>
     </div>

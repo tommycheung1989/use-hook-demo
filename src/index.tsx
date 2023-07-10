@@ -9,6 +9,8 @@ import UseEffect from "./routes/UseEffect";
 import UseContexftPage from "./routes/UseContextPage";
 import UseCallBack from "./routes/UseCallBack";
 import UseMemo from "./routes/UseMemo";
+import UseRef from "./routes/UseRef";
+import UseReducer from "./routes/UseReducer";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
   {
     path: "useMemo",
     element: <UseMemo />,
+  },
+  {
+    path: "useRef",
+    element: <UseRef />,
+  },
+  {
+    path: "useReducer",
+    element: <UseReducer />,
   },
 ]);
 
