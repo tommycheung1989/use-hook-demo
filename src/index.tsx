@@ -11,6 +11,7 @@ import UseCallBack from "./routes/UseCallBack";
 import UseMemo from "./routes/UseMemo";
 import UseRef from "./routes/UseRef";
 import UseReducer from "./routes/UseReducer";
+import UseTransition from "./routes/UseTransition";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "useReducer",
     element: <UseReducer />,
+  },
+  {
+    path: "useTransition",
+    element: <UseTransition />,
   },
 ]);
 

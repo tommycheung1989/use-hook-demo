@@ -13,12 +13,16 @@ export default function UseStatePage() {
   };
   return (
     <Layout>
-      <div className="container m-4">
+      <div className="container m-4" data-testid="container">
         <h1>UseState demo Page</h1>
         <div className="flex justify-around">
-          <button onClick={decrement}>-</button>
-          <input className="text-center" type="text" value={value} />
-          <button onClick={increment}>+</button>
+          <button data-testid="minus-btn" onClick={decrement}>
+            -
+          </button>
+          <span data-testid="label-value">{value}</span>
+          <button data-testid="plus-btn" onClick={increment}>
+            +
+          </button>
         </div>
       </div>
     </Layout>

@@ -32,6 +32,9 @@ function App() {
           <li>
             <Link to="/useReducer">useReducer</Link>
           </li>
+          <li>
+            <Link to="/useTransition">useTransition</Link>
+          </li>
         </ul>
       </div>
     </div>
